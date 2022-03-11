@@ -1,11 +1,11 @@
 package com.example.recyclerview2;
 
-public class Personaje {
+public class Items {
     private int imagen;
     private String texto;
     private String des;
 
-    public Personaje(int imagen, String texto, String des) {
+    public Items(int imagen, String texto, String des) {
         this.imagen = imagen;
         this.texto = texto;
         this.des = des;

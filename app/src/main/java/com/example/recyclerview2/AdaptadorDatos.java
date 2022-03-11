@@ -17,10 +17,10 @@ import java.util.ArrayList;
 //ternemos que crear el viewHolder para llenar los elementos de la vista con click derecho sobre el nombre de la clase
 public class AdaptadorDatos extends RecyclerView.Adapter<AdaptadorDatos.ViewHolderDatos> {
 
-    ArrayList<Personaje> listDatos;
+    ArrayList<Items> listDatos;
     Context context;
 //debemos crear el constructor
-    public AdaptadorDatos(ArrayList<Personaje> listDatos, Context context) {
+    public AdaptadorDatos(ArrayList<Items> listDatos, Context context) {
         this.listDatos = listDatos;
         this.context = context;
     }
